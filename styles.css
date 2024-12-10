@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('yacht-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(22, 4, 71);
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #game-container {
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #4CAF50;
+  }
+  
+  button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0b7dda;
+  }
+  
+  .suspects-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .suspect {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .suspect h4 {
+    margin: 0;
+    color: #FFD700;
+  }
+  
+  .suspect p {
+    font-size: 14px;
+    color: rgb(246, 244, 248);
+  }
+  
+  #game-info {
+    margin-top: 20px;
+  }
+  
